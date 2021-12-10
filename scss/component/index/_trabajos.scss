@@ -1,0 +1,35 @@
+.trabajos{
+    margin-top: 7em;
+    padding: 3em;
+    border-top: 2px solid $lima;
+    h2{
+        display: inline;
+        padding: 10px;
+        background-color: darken($azul,5%);
+        font-size: 40px;
+        color: $lima;
+        border: double 2px darken($azul,7%);
+    }
+    
+}
+.paginas{
+    margin: 1em;
+    text-align: center;
+    padding: 1em;
+}
+.post{
+    padding: 0.5em;
+    color: $blanco;
+    margin: 1em;
+    img{
+        border-radius: 15px;
+    }
+    h4{
+        margin-top: 1em;
+        color: $lima;
+    }
+    a{
+        color: $lima;
+    }
+
+}

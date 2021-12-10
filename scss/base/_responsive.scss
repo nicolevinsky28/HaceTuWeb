@@ -1,0 +1,174 @@
+@media screen and (max-width: 1100px){
+    .des{
+        margin: 7em 2em 7em 2em;
+        h1{
+            font-size: 50px;
+
+        }
+    }
+    //menu
+    .bar{
+        position: relative;
+        img{
+            visibility: hidden;
+        }
+    }
+
+        //nosotros
+        .nosotros{
+            h2{
+                padding-top: 1em;
+                border-top: 2px solid $lima;
+                text-align: center;
+                color: $amarillo;
+                margin-top: 2em;
+                font-size: 35px;
+            }
+        }
+        .mision{
+            margin-top: 5em;
+            padding: 15px;
+            .misiontxt{
+                background-color: rgba(0, 0, 0, .5);
+                color: $lima;
+                font-size: 20px;
+            }
+        }
+        .razones{
+            margin: 0.5em;
+            margin-left: 0px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;   
+        }
+        .razon{
+            background-color: darken($azul,7%);
+            margin: 0.5em;
+            h4{
+                font-size: 30px;
+                color: $blanco;
+            }
+            p{
+                padding: 0.5em;
+                margin-bottom: 3em;
+                font-size: 17px;
+                color: gray;
+            }
+            a{
+                margin-top: 0.5em;
+                font-size: 20px;
+            }
+        }
+
+        //servicios
+        .servicios{
+            margin-top: 10em;
+            padding: 0px;
+            padding-top: 3em;
+            border-top: 2px solid $lima;
+            h2{
+                display: inline;
+                color: $lima;
+                font-size: 30px;
+                background-color: darken($azul,5%);
+                padding: 5px;
+                border: double 2px darken($azul,7%);
+            }
+            h3{
+                margin-top: 1em;
+                margin-bottom:3em ;
+                font-size:20px ;
+            }
+        }
+        .serv{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 1em;
+            padding: 0.5em;
+            border-radius: 100px;
+            img{
+                border-radius: 100px;
+                 margin: 2em;
+                }
+            h2{
+                font-size: 20px;
+                padding: 0px;
+                margin-bottom: 2em;
+                }
+            p{
+                font-size: 17px;
+                color: gray; 
+                }
+            }
+
+        //footer
+        nav{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+
+        //trabajos
+        .trabajos{
+            margin-top: 7em;
+            padding: 1em;
+            padding-top: 3em;
+            border-top: 2px solid $lima;
+            h2{
+                font-size: 18px;
+            }
+            
+        }
+        .paginas{
+            margin: 0.5em;
+            text-align: center;
+            align-items: center;
+        }
+        .post{
+            color: $blanco;
+            img{
+                border-radius: 15px;
+                width: 250px;
+                height: 250px;
+            }
+            h4{
+                margin-top: 1em;
+                color: $lima;
+            }
+        
+        }
+
+        //des
+        .des{
+            margin-top: 5em;
+            text-align: center;
+            h1{
+                font-size: 50px;
+                color: $amarillo;
+            }
+            h2{
+                font-size: 25px;
+                color: $blanco;
+            }
+            h3{
+                margin-bottom: 7em;
+                font-size: 13px;
+                color: $blanco;
+            }
+            a{
+                font-size: 20px;
+                text-decoration: none;
+                color: $lima;
+                border: 5px solid $lima;
+                padding: 5px;
+                &:hover{
+                    transition: 0.5s;
+                    background-color: $lima;
+                    color: $azul;
+                    border: 5px double $azul;
+                }
+            }
+        }
+}

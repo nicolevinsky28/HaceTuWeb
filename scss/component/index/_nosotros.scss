@@ -1,0 +1,66 @@
+.nosotros{
+    text-align: center;
+    h2{
+        padding-top: 1em;
+        border-top: 2px solid $lima;
+        text-align: center;
+        color: $amarillo;
+        margin-top: 2em;
+        font-size: 50px;
+    }
+}
+.razones{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    padding: 0.5em;
+}
+.razon{
+    border-radius: 15px;
+    background-color: darken($azul,7%);
+    margin: 1em;
+    padding: 0.5em;
+    padding-bottom: 2em;
+    h4{
+        font-size: 40px;
+        color: $lima;
+    }
+    p{
+        color: gray;
+        text-align: justify;
+        padding: 1em;
+        margin-bottom: 3em;
+    }
+    a{
+        margin-top: 1em;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 1em;
+        border-radius: 20px;
+        color: $azul;
+        background-color: $blanco;
+
+        &:hover{
+            background-color: gray;
+            transition: 1s;
+        }
+    }
+}
+.mision{
+    margin-top: 7em;
+    background-image: url(../scr/media/img/tigre.jpg);
+    width: 100%;
+    padding: 130px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    .misiontxt{
+        background-color: rgba(0, 0, 0, .5);
+        color: $lima;
+        font-size: 50px;
+        border: 2px solid $lima;
+        padding-bottom: 1em;
+        margin-top: 0em;
+    }
+}

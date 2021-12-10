@@ -1,0 +1,437 @@
+.transColor {
+  color: #aed75b;
+}
+
+.bar {
+  background-color: #0f1225;
+  color: beige;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+.bar img {
+  margin-right: 1em;
+}
+.bar a {
+  text-decoration: none;
+  color: #ccff00;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  margin-right: 2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #0f1225;
+}
+
+.navbar-nav a {
+  font-size: 25px;
+  margin-right: 1em;
+}
+.navbar-nav a:hover {
+  transition: 0.5s;
+  transform: rotate(3deg);
+}
+
+.des {
+  background-position: center;
+  text-align: start;
+  margin: 7em;
+  margin-left: 7em;
+  margin-bottom: 11em;
+  display: flex;
+  flex-direction: column;
+}
+.des h1 {
+  font-size: 90px;
+  color: #ccff00;
+}
+.des h2 {
+  font-size: 40px;
+  color: #f1ece6;
+}
+.des h3 {
+  margin-bottom: 7em;
+  font-size: 25px;
+  color: #f1ece6;
+}
+.des a {
+  font-size: 40px;
+  text-decoration: none;
+  color: yellowgreen;
+  border: 5px solid yellowgreen;
+  padding: 5px;
+}
+.des a:hover {
+  transition: 0.5s;
+  background-color: yellowgreen;
+  color: #0f1225;
+  border: 5px double #0f1225;
+}
+
+.trabajos {
+  margin-top: 7em;
+  padding: 3em;
+  border-top: 2px solid yellowgreen;
+}
+.trabajos h2 {
+  display: inline;
+  padding: 10px;
+  background-color: #080913;
+  font-size: 40px;
+  color: yellowgreen;
+  border: double 2px #05060c;
+}
+
+.paginas {
+  margin: 1em;
+  text-align: center;
+  padding: 1em;
+}
+
+.post {
+  padding: 0.5em;
+  color: #f1ece6;
+  margin: 1em;
+}
+.post img {
+  border-radius: 15px;
+}
+.post h4 {
+  margin-top: 1em;
+  color: yellowgreen;
+}
+.post a {
+  color: yellowgreen;
+}
+
+.nosotros {
+  text-align: center;
+}
+.nosotros h2 {
+  padding-top: 1em;
+  border-top: 2px solid yellowgreen;
+  text-align: center;
+  color: #ccff00;
+  margin-top: 2em;
+  font-size: 50px;
+}
+
+.razones {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em;
+  padding: 0.5em;
+}
+
+.razon {
+  border-radius: 15px;
+  background-color: #05060c;
+  margin: 1em;
+  padding: 0.5em;
+  padding-bottom: 2em;
+}
+.razon h4 {
+  font-size: 40px;
+  color: yellowgreen;
+}
+.razon p {
+  color: gray;
+  text-align: justify;
+  padding: 1em;
+  margin-bottom: 3em;
+}
+.razon a {
+  margin-top: 1em;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1em;
+  border-radius: 20px;
+  color: #0f1225;
+  background-color: #f1ece6;
+}
+.razon a:hover {
+  background-color: gray;
+  transition: 1s;
+}
+
+.mision {
+  margin-top: 7em;
+  background-image: url(../scr/media/img/tigre.jpg);
+  width: 100%;
+  padding: 130px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.mision .misiontxt {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: yellowgreen;
+  font-size: 50px;
+  border: 2px solid yellowgreen;
+  padding-bottom: 1em;
+  margin-top: 0em;
+}
+
+.servicios {
+  margin-top: 10em;
+  padding: 3em;
+  border-top: 2px solid yellowgreen;
+}
+.servicios h2 {
+  display: inline;
+  color: yellowgreen;
+  font-size: 40px;
+  background-color: #080913;
+  padding: 5px;
+  border: double 2px #05060c;
+}
+.servicios h3 {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  color: yellowgreen;
+}
+
+.listaServicios {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.serv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 4em;
+  padding: 1em;
+  background-color: #05060c;
+  border: 10px yellowgreen double;
+  border-radius: 150px;
+}
+.serv img {
+  border-radius: 150px;
+  margin-right: 2em;
+}
+.serv h2 {
+  display: inline;
+  color: #f1ece6;
+  font-size: 40px;
+  background-color: unset;
+  padding: 0px;
+  border: none;
+  margin-bottom: 2em;
+}
+.serv p {
+  margin-top: 3em;
+  color: gray;
+  font-size: 17px;
+}
+
+footer {
+  background-color: black;
+  margin-top: 7em;
+  padding: 3em;
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+}
+footer nav ul {
+  list-style: none;
+}
+footer nav ul li {
+  padding: 1em;
+}
+footer nav ul li a {
+  text-decoration: none;
+}
+footer nav h4 {
+  color: #ccff00;
+}
+
+@media screen and (max-width: 1100px) {
+  .des {
+    margin: 7em 2em 7em 2em;
+  }
+  .des h1 {
+    font-size: 50px;
+  }
+
+  .bar {
+    position: relative;
+  }
+  .bar img {
+    visibility: hidden;
+  }
+
+  .nosotros h2 {
+    padding-top: 1em;
+    border-top: 2px solid yellowgreen;
+    text-align: center;
+    color: #ccff00;
+    margin-top: 2em;
+    font-size: 35px;
+  }
+
+  .mision {
+    margin-top: 5em;
+    padding: 15px;
+  }
+  .mision .misiontxt {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: yellowgreen;
+    font-size: 20px;
+  }
+
+  .razones {
+    margin: 0.5em;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .razon {
+    background-color: #05060c;
+    margin: 0.5em;
+  }
+  .razon h4 {
+    font-size: 30px;
+    color: #f1ece6;
+  }
+  .razon p {
+    padding: 0.5em;
+    margin-bottom: 3em;
+    font-size: 17px;
+    color: gray;
+  }
+  .razon a {
+    margin-top: 0.5em;
+    font-size: 20px;
+  }
+
+  .servicios {
+    margin-top: 10em;
+    padding: 0px;
+    padding-top: 3em;
+    border-top: 2px solid yellowgreen;
+  }
+  .servicios h2 {
+    display: inline;
+    color: yellowgreen;
+    font-size: 30px;
+    background-color: #080913;
+    padding: 5px;
+    border: double 2px #05060c;
+  }
+  .servicios h3 {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    font-size: 20px;
+  }
+
+  .serv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 100px;
+  }
+  .serv img {
+    border-radius: 100px;
+    margin: 2em;
+  }
+  .serv h2 {
+    font-size: 20px;
+    padding: 0px;
+    margin-bottom: 2em;
+  }
+  .serv p {
+    font-size: 17px;
+    color: gray;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .trabajos {
+    margin-top: 7em;
+    padding: 1em;
+    padding-top: 3em;
+    border-top: 2px solid yellowgreen;
+  }
+  .trabajos h2 {
+    font-size: 18px;
+  }
+
+  .paginas {
+    margin: 0.5em;
+    text-align: center;
+    align-items: center;
+  }
+
+  .post {
+    color: #f1ece6;
+  }
+  .post img {
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+  }
+  .post h4 {
+    margin-top: 1em;
+    color: yellowgreen;
+  }
+
+  .des {
+    margin-top: 5em;
+    text-align: center;
+  }
+  .des h1 {
+    font-size: 50px;
+    color: #ccff00;
+  }
+  .des h2 {
+    font-size: 25px;
+    color: #f1ece6;
+  }
+  .des h3 {
+    margin-bottom: 7em;
+    font-size: 13px;
+    color: #f1ece6;
+  }
+  .des a {
+    font-size: 20px;
+    text-decoration: none;
+    color: yellowgreen;
+    border: 5px solid yellowgreen;
+    padding: 5px;
+  }
+  .des a:hover {
+    transition: 0.5s;
+    background-color: yellowgreen;
+    color: #0f1225;
+    border: 5px double #0f1225;
+  }
+}
+body {
+  background-color: #0f1225;
+  background: linear-gradient(to right, #0f1225, #05060c);
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+.bar{
+    background-color: $azul;
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right:0px;
+    left: 0px;
+    top:0px;
+    img{
+        margin-right: 1em;
+    }
+    a{
+        text-decoration: none;
+        color: $amarillo;
+    }
+}
+
+
+.navbar-brand{
+    font-size: 35px;
+    margin-right: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0f1225;
+}
+.navbar-nav{
+
+    a{
+        font-size: 25px;
+        margin-right: 1em;
+        
+        
+      
+        &:hover{
+            transition: 0.5s;
+            transform: rotate(3deg)
+        }
+    }
+}

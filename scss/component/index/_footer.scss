@@ -1,0 +1,21 @@
+footer{
+    background-color: darken($azul,20%);
+    margin-top: 7em;
+    padding: 3em;
+    nav{
+        display: flex;
+        justify-content: space-around;
+        ul{
+            list-style: none;
+            li{
+                padding: 1em;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+        h4{
+            color: $amarillo;
+        }
+    }
+}
